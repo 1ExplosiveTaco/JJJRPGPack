@@ -1,0 +1,49 @@
+6.0.0 10-03-2016 19:49:22 Starting new session. Mods: examplemod 
+6.0.0 10-03-2016 19:49:31 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 10-03-2016 19:49:36 MAJOR: null: Loading language: en_US
+6.0.0 10-03-2016 19:49:36 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 11-03-2016 08:40:02 Starting new session. Mods: examplemod 
+6.0.0 11-03-2016 08:40:17 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 11-03-2016 08:40:26 MAJOR: null: Loading language: en_US
+6.0.0 11-03-2016 08:40:28 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 11-03-2016 10:24:29 Starting new session. Mods: examplemod 
+6.0.0 11-03-2016 10:24:47 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 11-03-2016 10:24:59 MAJOR: null: Loading language: en_US
+6.0.0 11-03-2016 10:25:03 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 11-03-2016 10:58:45 Starting new session. Mods: examplemod 
+6.0.0 11-03-2016 10:59:08 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 11-03-2016 10:59:17 MAJOR: null: Loading language: en_US
+6.0.0 11-03-2016 10:59:18 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 11-03-2016 11:21:12 Starting new session. Mods: examplemod 
+6.0.0 11-03-2016 11:21:32 ERROR: null: Tried to create good from block with no item: saddle;73;0;Selle
+6.0.0 11-03-2016 11:21:43 MAJOR: null: Loading language: en_US
+6.0.0 11-03-2016 11:21:47 MAJOR: null: Language loaded: en_US. Wand name: Wand of Summoning Wand invitem name: item.ml_villageWand.name
+6.0.0 11-03-2016 11:22:24 Exception, printing stack:
+6.0.0 11-03-2016 11:22:24 java.lang.NumberFormatException: For input string: " support was removed in 8.0"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at org.millenaire.common.MillWorld.loadVillageList(MillWorld.java:514)
+	at org.millenaire.common.MillWorld.loadData(MillWorld.java:426)
+	at org.millenaire.common.forge.MillEventController.worldLoaded(MillEventController.java:71)
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_530_MillEventController_worldLoaded_Load.invoke(.dynamic)
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:54)
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at Reflector.call(Reflector.java:506)
+	at Reflector.postForgeBusEvent(Reflector.java:617)
+	at Reflector.postForgeBusEvent(Reflector.java:603)
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:83)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:153)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+6.0.0 11-03-2016 11:22:31 Repeat exception x2: For input string: " support was removed in 8.0"
+6.0.0 11-03-2016 11:22:36 Repeat exception x3: For input string: " support was removed in 8.0"
+6.0.0 11-03-2016 11:22:41 Repeat exception x4: For input string: " support was removed in 8.0"
+6.0.0 11-03-2016 11:22:48 Repeat exception x5: For input string: " support was removed in 8.0"
+6.0.0 11-03-2016 11:22:59 Repeat exception x6: For input string: " support was removed in 8.0"
+6.0.0 11-03-2016 11:23:08 Repeat exception x7: For input string: " support was removed in 8.0"
+6.0.0 11-03-2016 11:23:13 Repeat exception x8: For input string: " support was removed in 8.0"
